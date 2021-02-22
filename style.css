@@ -1,0 +1,35 @@
+ body{
+	 font-family:sans-serif;
+ }
+ .container{
+	 display:flex;
+	 flex-direction:row;
+	 justify-content:space-around;
+ }
+.container div{
+	padding:20px;
+	flex-basis:30%;
+}
+ 
+.container .child1{
+		background:#9932cc;
+}
+.container .child2{
+	background:#00daff;
+}
+.container .child3{
+	background:#f783ac;
+}
+.container .child4{
+	background:#ff2500;
+}
+.container .child5{
+	background:#414A4C;
+}
+.container .child6{
+	background:#fff68f;
+}
+@media only screen and(min-width:200px) and (max-width:767px)
+	.container{
+		flex-direction:column;
+	}
